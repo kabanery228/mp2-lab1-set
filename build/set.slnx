@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c817896f-d2d0-335b-953e-a9603eb046b8" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gtest/gtest.vcxproj"/>
+		<BuildDependency Project="samples/sample_prime_numbers.vcxproj"/>
+		<BuildDependency Project="src/set.vcxproj"/>
+		<BuildDependency Project="test/test_set.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="94ce4597-3260-384d-988e-ce5fddc62346"/>
+	<Project Path="gtest/gtest.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="df6d1d07-8ed2-32dc-81b7-ceab8579d07b">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="samples/sample_prime_numbers.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e8aa1ef0-946a-31fe-ab43-60dfedfefe18">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/set.vcxproj"/>
+	</Project>
+	<Project Path="src/set.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ca81377e-eb51-390d-94d5-1abc9884f9d3">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="test/test_set.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8ee41d5e-eafd-3a53-885b-8c39e0255d62">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gtest/gtest.vcxproj"/>
+		<BuildDependency Project="src/set.vcxproj"/>
+	</Project>
+</Solution>
