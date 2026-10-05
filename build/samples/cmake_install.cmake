@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/E1268/Desktop/mp2-lab1-set/samples
+# Install script for directory: C:/Users/shmepus/Desktop/mp2-lab1-set/samples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/E1268/Desktop/mp2-lab1-set/build/samples/install_local_manifest.txt"
+  file(WRITE "C:/Users/shmepus/Desktop/mp2-lab1-set/build/samples/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

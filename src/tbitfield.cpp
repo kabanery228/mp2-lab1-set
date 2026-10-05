@@ -18,20 +18,20 @@ TBitField::TBitField(int len)
     else if (len < 31) {
         BitLen = len;
         MemLen = 1;
-        pMem = new TELEM[1]{};
+        //pMem = new TELEM[1]{};
     }
     else {
         BitLen = len;
-        MemLen = (len - 31) >> 5 + 1;
+        MemLen = (len + 31) >> 5;
         pMem = new TELEM[MemLen]{};
     }
-
+    pMem = new TELEM[MemLen]{};
 }
 
 TBitField::TBitField(const TBitField &bf):BitLen(bf.BitLen), MemLen(bf.MemLen) // конструктор копирования
 {
     pMem = new TELEM[MemLen]{};
-    for (int i{}; i < BitLen; i++) {
+    for (int i{}; i < MemLen; i++) {
         pMem[i] = bf.pMem[i];
     }
 }
@@ -60,13 +60,13 @@ int TBitField::GetLength(void) const // получить длину (к-во б�
 
 void TBitField::SetBit(const int n) // установить бит
 {
-    if ((n > 0) || (n >= BitLen)) throw n;
+    if ((n < 0) || (n >= BitLen)) return;
     pMem[GetMemIndex(n)] |= GetMemMask(n);
 }
 
 void TBitField::ClrBit(const int n) // очистить бит
 {
-    if ((n > 0) || (n >= BitLen)) throw n;
+    if ((n < 0) || (n >= BitLen)) return;
     pMem[GetMemIndex(n)] &= ~GetMemMask(n);
 }
 
@@ -141,11 +141,14 @@ istream &operator>>(istream &istr, TBitField &bf) // ввод
 {
     int i = 0;
     char ch;
-    while (1) {
-        istr >> ch;
+    while (i < bf.GetLength() && istr.get(ch)) {
+        //istr >> ch;
         if (ch == '0') bf.ClrBit(i++);
         else if (ch == '1') bf.SetBit(i++);
-
+        else {
+            istr.putback(ch);
+            break;
+        }
     }
     return istr;
 }
