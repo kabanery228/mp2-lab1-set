@@ -7,7 +7,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:4 (project)"
     message: |
-      The system is: Windows - 10.0.26200 - AMD64
+      The system is: Windows - 10.0.19044 - AMD64
   -
     kind: "find-v1"
     backtrace:
@@ -35,19 +35,31 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "message-v1"
     backtrace:
@@ -63,10 +75,10 @@ events:
       
       The output was:
       0
-      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.10.2026 21:27:54.
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 06.10.2026 13:07:09.
       
-      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
         ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
@@ -75,25 +87,25 @@ events:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
       ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.11
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.06
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -101,7 +113,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/4.4.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/4.4.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -125,38 +137,62 @@ events:
     names:
       - "link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
     backtrace:
@@ -179,24 +215,54 @@ events:
     names:
       - "lld-link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Python314/Scripts/lld-link.com"
+      - "C:/Python314/Scripts/lld-link.exe"
+      - "C:/Python314/Scripts/lld-link"
+      - "C:/Python314/lld-link.com"
+      - "C:/Python314/lld-link.exe"
+      - "C:/Python314/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
       - "C:/Windows/System32/lld-link.com"
       - "C:/Windows/System32/lld-link.exe"
       - "C:/Windows/System32/lld-link"
@@ -212,46 +278,76 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.com"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.exe"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link"
       - "C:/Program Files/dotnet/lld-link.com"
       - "C:/Program Files/dotnet/lld-link.exe"
       - "C:/Program Files/dotnet/lld-link"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/FPC/bin/i386-win32/lld-link.com"
+      - "C:/FPC/bin/i386-win32/lld-link.exe"
+      - "C:/FPC/bin/i386-win32/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/lld-link"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
     backtrace:
@@ -272,38 +368,62 @@ events:
     names:
       - "link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
     backtrace:
@@ -324,24 +444,54 @@ events:
     names:
       - "mt"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/mt"
+      - "C:/Program Files/Microsoft MPI/Bin/mt.com"
+      - "C:/Program Files/Microsoft MPI/Bin/mt.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/mt"
+      - "C:/Python314/Scripts/mt.com"
+      - "C:/Python314/Scripts/mt.exe"
+      - "C:/Python314/Scripts/mt"
+      - "C:/Python314/mt.com"
+      - "C:/Python314/mt.exe"
+      - "C:/Python314/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
       - "C:/Windows/System32/mt.com"
       - "C:/Windows/System32/mt.exe"
       - "C:/Windows/System32/mt"
@@ -357,46 +507,76 @@ events:
       - "C:/Windows/System32/OpenSSH/mt.com"
       - "C:/Windows/System32/OpenSSH/mt.exe"
       - "C:/Windows/System32/OpenSSH/mt"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.com"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.exe"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/mt.com"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/mt.exe"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/mt"
       - "C:/Program Files/dotnet/mt.com"
       - "C:/Program Files/dotnet/mt.exe"
       - "C:/Program Files/dotnet/mt"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "C:/Program Files/Git/cmd/mt.com"
-      - "C:/Program Files/Git/cmd/mt.exe"
-      - "C:/Program Files/Git/cmd/mt"
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/FPC/bin/i386-win32/mt.com"
+      - "C:/FPC/bin/i386-win32/mt.exe"
+      - "C:/FPC/bin/i386-win32/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/mt"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.com"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/mt"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/mt"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
     backtrace:
@@ -417,38 +597,62 @@ events:
     names:
       - "lib"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
-    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
     backtrace:
@@ -476,19 +680,31 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "message-v1"
     backtrace:
@@ -504,10 +720,10 @@ events:
       
       The output was:
       0
-      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.10.2026 21:27:55.
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 06.10.2026 13:07:10.
       
-      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
         ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
@@ -516,25 +732,25 @@ events:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
       ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.66
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.64
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -542,7 +758,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/4.4.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/4.4.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -566,24 +782,54 @@ events:
     names:
       - "lld-link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Python314/Scripts/lld-link.com"
+      - "C:/Python314/Scripts/lld-link.exe"
+      - "C:/Python314/Scripts/lld-link"
+      - "C:/Python314/lld-link.com"
+      - "C:/Python314/lld-link.exe"
+      - "C:/Python314/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
       - "C:/Windows/System32/lld-link.com"
       - "C:/Windows/System32/lld-link.exe"
       - "C:/Windows/System32/lld-link"
@@ -599,46 +845,76 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.com"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link.exe"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/lld-link"
       - "C:/Program Files/dotnet/lld-link.com"
       - "C:/Program Files/dotnet/lld-link.exe"
       - "C:/Program Files/dotnet/lld-link"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/FPC/bin/i386-win32/lld-link.com"
+      - "C:/FPC/bin/i386-win32/lld-link.exe"
+      - "C:/FPC/bin/i386-win32/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/lld-link"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
     backtrace:
@@ -662,19 +938,31 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/FPC/bin/i386-win32/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -688,6 +976,24 @@ events:
       - "C:/Program Files (x86)/set/sbin/"
       - "C:/Program Files (x86)/set/"
     searched_directories:
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/rc"
+      - "C:/Program Files/Microsoft MPI/Bin/rc.com"
+      - "C:/Program Files/Microsoft MPI/Bin/rc.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/rc"
+      - "C:/Python314/Scripts/rc.com"
+      - "C:/Python314/Scripts/rc.exe"
+      - "C:/Python314/Scripts/rc"
+      - "C:/Python314/rc.com"
+      - "C:/Python314/rc.exe"
+      - "C:/Python314/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
       - "C:/Windows/System32/rc.com"
       - "C:/Windows/System32/rc.exe"
       - "C:/Windows/System32/rc"
@@ -703,30 +1009,48 @@ events:
       - "C:/Windows/System32/OpenSSH/rc.com"
       - "C:/Windows/System32/OpenSSH/rc.exe"
       - "C:/Windows/System32/OpenSSH/rc"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.com"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.exe"
-      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/rc.com"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/rc.exe"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/rc"
       - "C:/Program Files/dotnet/rc.com"
       - "C:/Program Files/dotnet/rc.exe"
       - "C:/Program Files/dotnet/rc"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "C:/Program Files/Git/cmd/rc.com"
-      - "C:/Program Files/Git/cmd/rc.exe"
-      - "C:/Program Files/Git/cmd/rc"
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/shmepus/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/shmepus/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/FPC/bin/i386-win32/rc.com"
+      - "C:/FPC/bin/i386-win32/rc.exe"
+      - "C:/FPC/bin/i386-win32/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/100/DTS/Binn/rc"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.1/rc"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/E1268/AppData/Local/Microsoft/WindowsApps/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -766,19 +1090,31 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\shmepus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\FPC\\bin\\i386-Win32"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"
+        - "c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.1\\"
+        - "C:\\Users\\E1268\\AppData\\Local\\Microsoft\\WindowsApps"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/set"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -794,8 +1130,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679"
-      binary: "C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679"
+      source: "C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6"
+      binary: "C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -804,39 +1140,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679'
+        Change Dir: 'C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd08e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.10.2026 21:27:56.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_957fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 06.10.2026 13:07:11.
         
-        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gb7679\\cmTC_cd08e.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ufyjs6\\cmTC_957fe.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gb7679\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_cd08e.dir\\Debug\\cmTC_cd08e.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ufyjs6\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_957fe.dir\\Debug\\cmTC_957fe.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_cd08e.dir\\Debug\\cmTC_cd08e.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_cd08e.dir\\Debug\\cmTC_cd08e.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_957fe.dir\\Debug\\cmTC_957fe.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_957fe.dir\\Debug\\cmTC_957fe.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cd08e.dir\\Debug\\\\" /Fd"cmTC_cd08e.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_957fe.dir\\Debug\\\\" /Fd"cmTC_957fe.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cd08e.dir\\Debug\\\\" /Fd"cmTC_cd08e.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_957fe.dir\\Debug\\\\" /Fd"cmTC_957fe.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gb7679\\Debug\\cmTC_cd08e.exe" /INCREMENTAL /ILK:"cmTC_cd08e.dir\\Debug\\cmTC_cd08e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679/Debug/cmTC_cd08e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679/Debug/cmTC_cd08e.lib" /MACHINE:X64  /machine:x64 cmTC_cd08e.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_cd08e.vcxproj -> C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gb7679\\Debug\\cmTC_cd08e.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ufyjs6\\Debug\\cmTC_957fe.exe" /INCREMENTAL /ILK:"cmTC_957fe.dir\\Debug\\cmTC_957fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6/Debug/cmTC_957fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6/Debug/cmTC_957fe.lib" /MACHINE:X64  /machine:x64 cmTC_957fe.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_957fe.vcxproj -> C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ufyjs6\\Debug\\cmTC_957fe.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_cd08e.dir\\Debug\\cmTC_cd08e.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_cd08e.dir\\Debug\\cmTC_cd08e.tlog\\cmTC_cd08e.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gb7679\\cmTC_cd08e.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_957fe.dir\\Debug\\cmTC_957fe.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_957fe.dir\\Debug\\cmTC_957fe.tlog\\cmTC_957fe.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ufyjs6\\cmTC_957fe.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.60
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.51
         
       exitCode: 0
   -
@@ -849,8 +1185,8 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gb7679\\Debug\\cmTC_cd08e.exe" /INCREMENTAL /ILK:"cmTC_cd08e.dir\\Debug\\cmTC_cd08e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679/Debug/cmTC_cd08e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-gb7679/Debug/cmTC_cd08e.lib" /MACHINE:X64  /machine:x64 cmTC_cd08e.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ufyjs6\\Debug\\cmTC_957fe.exe" /INCREMENTAL /ILK:"cmTC_957fe.dir\\Debug\\cmTC_957fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6/Debug/cmTC_957fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ufyjs6/Debug/cmTC_957fe.lib" /MACHINE:X64  /machine:x64 cmTC_957fe.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -865,8 +1201,8 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36256.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
@@ -877,8 +1213,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx"
-      binary: "C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx"
+      source: "C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca"
+      binary: "C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -888,39 +1224,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx'
+        Change Dir: 'C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_538a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.10.2026 21:27:57.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b33fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.9.1+a81b43525 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 06.10.2026 13:07:12.
         
-        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zld6hx\\cmTC_538a7.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ioodca\\cmTC_b33fd.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zld6hx\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_538a7.dir\\Debug\\cmTC_538a7.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ioodca\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b33fd.dir\\Debug\\cmTC_b33fd.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_538a7.dir\\Debug\\cmTC_538a7.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_538a7.dir\\Debug\\cmTC_538a7.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_b33fd.dir\\Debug\\cmTC_b33fd.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b33fd.dir\\Debug\\cmTC_b33fd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_538a7.dir\\Debug\\\\" /Fd"cmTC_538a7.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b33fd.dir\\Debug\\\\" /Fd"cmTC_b33fd.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_538a7.dir\\Debug\\\\" /Fd"cmTC_538a7.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b33fd.dir\\Debug\\\\" /Fd"cmTC_b33fd.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zld6hx\\Debug\\cmTC_538a7.exe" /INCREMENTAL /ILK:"cmTC_538a7.dir\\Debug\\cmTC_538a7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx/Debug/cmTC_538a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx/Debug/cmTC_538a7.lib" /MACHINE:X64  /machine:x64 cmTC_538a7.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_538a7.vcxproj -> C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zld6hx\\Debug\\cmTC_538a7.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ioodca\\Debug\\cmTC_b33fd.exe" /INCREMENTAL /ILK:"cmTC_b33fd.dir\\Debug\\cmTC_b33fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca/Debug/cmTC_b33fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca/Debug/cmTC_b33fd.lib" /MACHINE:X64  /machine:x64 cmTC_b33fd.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b33fd.vcxproj -> C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ioodca\\Debug\\cmTC_b33fd.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_538a7.dir\\Debug\\cmTC_538a7.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_538a7.dir\\Debug\\cmTC_538a7.tlog\\cmTC_538a7.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zld6hx\\cmTC_538a7.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_b33fd.dir\\Debug\\cmTC_b33fd.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b33fd.dir\\Debug\\cmTC_b33fd.tlog\\cmTC_b33fd.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ioodca\\cmTC_b33fd.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.55
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.51
         
       exitCode: 0
   -
@@ -933,8 +1269,8 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\shmepus\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zld6hx\\Debug\\cmTC_538a7.exe" /INCREMENTAL /ILK:"cmTC_538a7.dir\\Debug\\cmTC_538a7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx/Debug/cmTC_538a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/shmepus/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-zld6hx/Debug/cmTC_538a7.lib" /MACHINE:X64  /machine:x64 cmTC_538a7.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\E1268\\Desktop\\mp2-lab1-set\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ioodca\\Debug\\cmTC_b33fd.exe" /INCREMENTAL /ILK:"cmTC_b33fd.dir\\Debug\\cmTC_b33fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca/Debug/cmTC_b33fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/E1268/Desktop/mp2-lab1-set/build/CMakeFiles/CMakeScratch/TryCompile-ioodca/Debug/cmTC_b33fd.lib" /MACHINE:X64  /machine:x64 cmTC_b33fd.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -949,7 +1285,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36256.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
