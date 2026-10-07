@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8EE41D5E-EAFD-3A53-885B-8C39E0255D62}</ProjectGuid>
+    <ProjectGuid>{8F62ECDB-9F41-31AC-AB0A-0C711DC1759A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\E1268\Desktop\mp2-lab1-set\build\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shmepus\Desktop\mp2-lab1-set\build\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_set.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_set</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\E1268\Desktop\mp2-lab1-set\build\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shmepus\Desktop\mp2-lab1-set\build\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_set.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_set</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\E1268\Desktop\mp2-lab1-set\include;C:\Users\E1268\Desktop\mp2-lab1-set\gtest;C:\Users\E1268\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shmepus\Desktop\mp2-lab1-set\include;C:\Users\shmepus\Desktop\mp2-lab1-set\gtest;C:\Users\shmepus\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -82,10 +82,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\E1268\Desktop\mp2-lab1-set\include;C:\Users\E1268\Desktop\mp2-lab1-set\gtest;C:\Users\E1268\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shmepus\Desktop\mp2-lab1-set\include;C:\Users\shmepus\Desktop\mp2-lab1-set\gtest;C:\Users\shmepus\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\E1268\Desktop\mp2-lab1-set\include;C:\Users\E1268\Desktop\mp2-lab1-set\gtest;C:\Users\E1268\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shmepus\Desktop\mp2-lab1-set\include;C:\Users\shmepus\Desktop\mp2-lab1-set\gtest;C:\Users\shmepus\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -100,9 +100,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/E1268/Desktop/mp2-lab1-set/build/lib/Debug/test_set.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/shmepus/Desktop/mp2-lab1-set/build/lib/Debug/test_set.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/E1268/Desktop/mp2-lab1-set/build/bin/test_set.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/shmepus/Desktop/mp2-lab1-set/build/bin/test_set.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\E1268\Desktop\mp2-lab1-set\include;C:\Users\E1268\Desktop\mp2-lab1-set\gtest;C:\Users\E1268\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shmepus\Desktop\mp2-lab1-set\include;C:\Users\shmepus\Desktop\mp2-lab1-set\gtest;C:\Users\shmepus\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -139,10 +139,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\E1268\Desktop\mp2-lab1-set\include;C:\Users\E1268\Desktop\mp2-lab1-set\gtest;C:\Users\E1268\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shmepus\Desktop\mp2-lab1-set\include;C:\Users\shmepus\Desktop\mp2-lab1-set\gtest;C:\Users\shmepus\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\E1268\Desktop\mp2-lab1-set\include;C:\Users\E1268\Desktop\mp2-lab1-set\gtest;C:\Users\E1268\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shmepus\Desktop\mp2-lab1-set\include;C:\Users\shmepus\Desktop\mp2-lab1-set\gtest;C:\Users\shmepus\Desktop\mp2-lab1-set\test\..\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,9 +157,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/E1268/Desktop/mp2-lab1-set/build/lib/Release/test_set.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/shmepus/Desktop/mp2-lab1-set/build/lib/Release/test_set.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/E1268/Desktop/mp2-lab1-set/build/bin/test_set.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/shmepus/Desktop/mp2-lab1-set/build/bin/test_set.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -168,11 +168,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\E1268\Desktop\mp2-lab1-set\test\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shmepus\Desktop\mp2-lab1-set\test\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/E1268/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/shmepus/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/E1268/Desktop/mp2-lab1-set -BC:/Users/E1268/Desktop/mp2-lab1-set/build --check-stamp-file C:/Users/E1268/Desktop/mp2-lab1-set/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shmepus/Desktop/mp2-lab1-set -BC:/Users/shmepus/Desktop/mp2-lab1-set/build --check-stamp-file C:/Users/shmepus/Desktop/mp2-lab1-set/build/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -181,11 +181,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\E1268\Desktop\mp2-lab1-set\build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shmepus\Desktop\mp2-lab1-set\build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/E1268/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shmepus/Desktop/mp2-lab1-set/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/E1268/Desktop/mp2-lab1-set -BC:/Users/E1268/Desktop/mp2-lab1-set/build --check-stamp-file C:/Users/E1268/Desktop/mp2-lab1-set/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shmepus/Desktop/mp2-lab1-set -BC:/Users/shmepus/Desktop/mp2-lab1-set/build --check-stamp-file C:/Users/shmepus/Desktop/mp2-lab1-set/build/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -194,29 +194,29 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\E1268\Desktop\mp2-lab1-set\build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shmepus\Desktop\mp2-lab1-set\build\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\E1268\Desktop\mp2-lab1-set\test\test_main.cpp" />
-    <ClCompile Include="C:\Users\E1268\Desktop\mp2-lab1-set\test\test_tbitfield.cpp" />
-    <ClCompile Include="C:\Users\E1268\Desktop\mp2-lab1-set\test\test_tset.cpp" />
+    <ClCompile Include="C:\Users\shmepus\Desktop\mp2-lab1-set\test\test_main.cpp" />
+    <ClCompile Include="C:\Users\shmepus\Desktop\mp2-lab1-set\test\test_tbitfield.cpp" />
+    <ClCompile Include="C:\Users\shmepus\Desktop\mp2-lab1-set\test\test_tset.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\E1268\Desktop\mp2-lab1-set\build\ZERO_CHECK.vcxproj">
-      <Project>{94CE4597-3260-384D-988E-CE5FDDC62346}</Project>
+    <ProjectReference Include="C:\Users\shmepus\Desktop\mp2-lab1-set\build\ZERO_CHECK.vcxproj">
+      <Project>{EFFCEBD9-58BE-30C7-8088-E356DC6B6207}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\E1268\Desktop\mp2-lab1-set\build\gtest\gtest.vcxproj">
-      <Project>{DF6D1D07-8ED2-32DC-81B7-CEAB8579D07B}</Project>
+    <ProjectReference Include="C:\Users\shmepus\Desktop\mp2-lab1-set\build\gtest\gtest.vcxproj">
+      <Project>{3270EB2E-5512-3CC4-A29C-CF0CADAFF2BA}</Project>
       <Name>gtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\E1268\Desktop\mp2-lab1-set\build\src\set.vcxproj">
-      <Project>{CA81377E-EB51-390D-94D5-1ABC9884F9D3}</Project>
+    <ProjectReference Include="C:\Users\shmepus\Desktop\mp2-lab1-set\build\src\set.vcxproj">
+      <Project>{C82779FC-0293-307D-858C-609C03D4525B}</Project>
       <Name>set</Name>
     </ProjectReference>
   </ItemGroup>

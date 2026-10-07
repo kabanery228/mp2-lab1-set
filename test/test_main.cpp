@@ -2,7 +2,7 @@
 #include "tbitfield.h"
 #include "tset.h"
 
-int resheto_size = 100000;
+int resheto_size = 100;
 
 int main(int argc, char **argv) {
     //TBitField bf(5);
